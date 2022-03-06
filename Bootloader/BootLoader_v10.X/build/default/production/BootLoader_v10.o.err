@@ -1,0 +1,31 @@
+Warning[219] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 185 : Invalid RAM location specified.
+Warning[219] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 187 : Invalid RAM location specified.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 240 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 246 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 380 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 381 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 383 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 395 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 398 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 399 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 400 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 402 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 404 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 405 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 410 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 420 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 422 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 423 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 437 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 489 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 491 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 500 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 512 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 514 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 515 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 525 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 102 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 102 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 103 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 103 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\DATA\ANDROIDIOBOARD\MPLABX\BOOTLOADER_V10.X\BOOTLOADER_V10.ASM 593 : Register in operand not in bank 0.  Ensure that bank bits are correct.

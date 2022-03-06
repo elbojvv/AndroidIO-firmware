@@ -1,0 +1,161 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Jun 18 16:15:20 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x0003fe
+.config_8007_BOOTLOADER_V10.O       code   0x008007    program   0x000002
+.config_8008_BOOTLOADER_V10.O       code   0x008008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0001fe      
+                            0x008007    0x008008      
+            513 out of 16647 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 PFlashHk   0x000110    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+            bootloadcheck   0x000000    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               checkFlush   0x000142    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+           checkFlushData   0x000139    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     del1   0x000011    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              erasePFlash   0x00010e    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 hextobin   0x0001b3    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    init2   0x000006    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    init3   0x000019    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                intvector   0x000004    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_1   0x000040    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_10   0x000104    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_11   0x000154    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_12   0x00017f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_13   0x0001b7    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_14   0x0001c9    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_15   0x0001cb    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_2   0x000054    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_3   0x00005a    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_4   0x000065    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_5   0x0000cd    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_6   0x0000d3    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_7   0x0000db    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_8   0x0000e7    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_9   0x0000f8    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_2_1   0x000103    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_2_2   0x000104    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_2_3   0x00017f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               load_eeadr   0x000159    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 mainloop   0x00002a    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp1   0x00006c    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp2   0x000084    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp3   0x00009f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp4   0x000096    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               readPFlash   0x000105    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+            readPFlash_ld   0x000107    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               readRXwait   0x000165    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+        readhexbyteRXwait   0x000189    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              readhexfile   0x0000a2    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              readprogram   0x000066    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf1   0x0000db    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf2   0x0000a9    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf3   0x0000f8    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf4   0x0000a9    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf5   0x0000f4    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    rrxw1   0x00016a    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    rrxw2   0x000165    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    rrxw3   0x000173    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  text_OK   0x0001fa    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 text_bye   0x0001fc    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              text_errors   0x0001f2    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+             text_hexfile   0x0001e5    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                text_menu   0x0001d3    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+        uart_write_TX_OUT   0x00015e    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+             uart_write_w   0x00015f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                      wh1   0x0001ba    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     wpf1   0x000135    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              writePFlash   0x00011e    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+          writeRXDtoflash   0x00014f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                write_hex   0x0001ba    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              write_hex_n   0x0001c0    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 write_lf   0x0001cd    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              write_space   0x0001d0    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               write_text   0x000192    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            bootloadcheck   0x000000    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                intvector   0x000004    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    init2   0x000006    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     del1   0x000011    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    init3   0x000019    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 mainloop   0x00002a    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_1   0x000040    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_2   0x000054    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_3   0x00005a    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_4   0x000065    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              readprogram   0x000066    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp1   0x00006c    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp2   0x000084    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp4   0x000096    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rdp3   0x00009f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              readhexfile   0x0000a2    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf2   0x0000a9    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf4   0x0000a9    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_5   0x0000cd    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_6   0x0000d3    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf1   0x0000db    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_7   0x0000db    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_8   0x0000e7    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf5   0x0000f4    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_1_9   0x0000f8    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     rhf3   0x0000f8    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_2_1   0x000103    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_2_2   0x000104    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_10   0x000104    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               readPFlash   0x000105    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+            readPFlash_ld   0x000107    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              erasePFlash   0x00010e    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 PFlashHk   0x000110    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              writePFlash   0x00011e    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                     wpf1   0x000135    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+           checkFlushData   0x000139    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               checkFlush   0x000142    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+          writeRXDtoflash   0x00014f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_11   0x000154    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               load_eeadr   0x000159    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+        uart_write_TX_OUT   0x00015e    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+             uart_write_w   0x00015f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               readRXwait   0x000165    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    rrxw2   0x000165    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    rrxw1   0x00016a    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                    rrxw3   0x000173    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_12   0x00017f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  lab_2_3   0x00017f    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+        readhexbyteRXwait   0x000189    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+               write_text   0x000192    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 hextobin   0x0001b3    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_13   0x0001b7    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                      wh1   0x0001ba    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                write_hex   0x0001ba    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              write_hex_n   0x0001c0    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_14   0x0001c9    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 lab_1_15   0x0001cb    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 write_lf   0x0001cd    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              write_space   0x0001d0    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                text_menu   0x0001d3    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+             text_hexfile   0x0001e5    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+              text_errors   0x0001f2    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                  text_OK   0x0001fa    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+                 text_bye   0x0001fc    program     static C:\Data\AndroidIOBoard\MPLABX\BootLoader_v10.X\BootLoader_v10.asm
+
+
